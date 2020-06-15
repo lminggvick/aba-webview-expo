@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "aba-webview-expo",
+    "name": "아바",
     "slug": "aba-webview-expo",
     "platforms": [
       "ios",
@@ -22,7 +22,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abacorp.abasystem"
+    },
+    "android": {
+      "package": "com.abacorp.abasystem"
     }
   }
 }
